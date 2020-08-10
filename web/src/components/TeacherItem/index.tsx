@@ -31,7 +31,7 @@ const TeacherItem: React.FC<TeacherItemProps> = ({ teacher }) => {
             <header>
                 <img src={teacher.avatar} alt={teacher.name} />
                 <div>
-                    <strong>{teacher.avatar}</strong>
+                    <strong>{teacher.name}</strong>
                     <span>{teacher.subject}</span>
                 </div>
             </header>
